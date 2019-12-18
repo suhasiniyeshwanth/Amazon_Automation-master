@@ -1,0 +1,98 @@
+{
+  "uid" : "4a1062948fe04144",
+  "name" : "test_ghasd[Chrome]",
+  "fullName" : "test_scripts.test_sample#test_ghasd",
+  "historyId" : "583d003be73151b256053a0887ef3c41",
+  "time" : {
+    "start" : 1575176283717,
+    "stop" : 1575176283718,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_ghasd():\n>       assert False\nE       assert False\n\ntest_scripts\\test_sample.py:4: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1575176272889,
+      "stop" : 1575176283715,
+      "duration" : 10826
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1575176283846,
+      "stop" : 1575176287016,
+      "duration" : 3170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e8e15a789f351253",
+      "name" : "test_ghasd",
+      "source" : "e8e15a789f351253.png",
+      "type" : "image/png",
+      "size" : 23236
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_sample"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-JAMBUR3"
+  }, {
+    "name" : "thread",
+    "value" : "7256-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_scripts.test_sample"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "setup",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4a1062948fe04144.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4a1062948fe04144",
+  "name" : "test_ghasd[Chrome]",
+  "time" : {
+    "start" : 1575176283717,
+    "stop" : 1575176283718,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
